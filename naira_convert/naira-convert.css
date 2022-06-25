@@ -1,0 +1,85 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("./image\ \(1\).jpg");
+  background-size: cover;
+  /* background-color: #eb9ba4;
+  opacity: 0.8;
+  background-size: 10px 10px;
+
+  background: linear-gradient(20deg, #88e2b5, #023519);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite; */
+}
+
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 40%}
+  50%{background-position:100% 61%}
+  100%{background-position:0% 40%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 40%}
+  50%{background-position:100% 61%}
+  100%{background-position:0% 40%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 40%}
+  50%{background-position:100% 61%}
+  100%{background-position:0% 40%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-box {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: aliceblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-items: center;
+  box-shadow: 5px 5px 25px -4px rgba(56, 52, 52, 0.79);
+  -webkit-box-shadow: 5px 5px 25px -4px rgba(56, 52, 52, 0.79);
+  -moz-box-shadow: 5px 5px 25px -4px rgba(56, 52, 52, 0.79);
+}
+.form-box {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+h1 {
+  margin-left: 3%;
+}
+label {
+  margin-left: 5%;
+  font-size: 20px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+input {
+  height: 40px;
+  margin-left: 5%;
+}
+button {
+  width: 76%;
+  margin-top: 4%;
+  margin-left: 4%;
+  height: 40px;
+}

@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./naira-convert.css" />
+    <title>Naira Converter</title>
+  </head>
+  <body>
+    <div class="main-box">
+      <h1>Currency Converter</h1>
+      <div class="form-box">
+        <form action="">
+          <div class="col">
+            <label for="">Dollar</label>
+            <input
+              type="text"
+              placeholder="Amount in Dollar"
+              name=""
+              id="dollar"
+            />
+          </div>
+          <div class="col">
+            <label for="">Naira</label>
+
+            <input
+              type="text"
+              placeholder="Enter Amount in Naira"
+              name=""
+              id="naira"
+            />
+          </div>
+
+          <button id="btn">Convert</button>
+        </form>
+        <p style="font-weight: bold;">
+          The Result is : &#8358;
+          <span id="result"></span>
+        </p>
+      </div>
+    </div>
+    <script>
+      function multiplyBy(e) {
+        e.preventDefault();
+        num1 = document.getElementById("naira").value;
+        num2 = document.getElementById("dollar").value;
+        document.getElementById("result").innerHTML = 515 * num2;
+        document.getElementById("naira").value = num2 * 515;
+      }
+      let btn = document.getElementById("btn");
+
+      btn.addEventListener("click", multiplyBy);
+    </script>
+  </body>
+</html>

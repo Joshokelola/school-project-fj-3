@@ -1,0 +1,50 @@
+
+body{
+    background-position: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.form-items{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 4%;
+    height: 45px;
+}
+.row-card{
+    position: absolute;
+/* margin-top: 3%;
+margin-bottom: 3%; */
+    padding-left: 15%;
+    padding-right: 15%;
+    /* padding-top: 5%; */
+    width: 500px;
+    background-color: antiquewhite;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 25px -4px rgba(56, 52, 52, 0.79);
+    -webkit-box-shadow: 5px 5px 25px -4px rgba(56, 52, 52, 0.79);
+    -moz-box-shadow: 5px 5px 25px -4px rgba(56, 52, 52, 0.79);
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
+.btn1{
+    margin-top: 4%;
+    height: 50px;
+    margin-bottom: 4%;
+    border: 0ch;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    font-size: 17px;
+    width: 100%;
+}
+.btn1:hover{
+background-color: rgb(185, 100, 100);
+}
